@@ -51,15 +51,12 @@
                                                          <?= $item['status'] == '1' ? 'hidden':'Visible';
                                                             // if($item['status'] == '1') { echo 'Hidden'; } else { echo 'Visible'; }
                                                         ?>
-
+                                                        
 
                                                     </td>
                                                     <td><a href="category-edit.php?id=<?= $item['id']; ?>" class="btn btn-success">Editar</a></td>
                                                     <!-- <td>
-                                                        <form action="code.php" method="POST">
-
-                                                            <button type="submit" name="category_suspend" value="" onclick='return confirmacion()' class="btn btn-danger">Suspender</button>
-
+24.6
                                                         </form>
                                                     </td> -->
                                                     <td>
